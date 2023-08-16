@@ -1,2 +1,4 @@
-# identify-on-aptos
-onchain profile based on aptos name service
+# aptos-identity
+Create your onchain identity on Aptos, starting with setting your profile picture (NOTE: only token V2 NFTs are supported).
+
+
