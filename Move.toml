@@ -1,0 +1,27 @@
+[package]
+name = 'aptos_identify'
+version = '1.0.0'
+authors = []
+
+[addresses]
+aptos_identify = "_"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'framework-mainnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'framework-mainnet'
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosTokenObjects]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'framework-mainnet'
+subdir = 'aptos-move/framework/aptos-token-objects'
+
+
+[dev-dependencies]
